@@ -2,6 +2,8 @@ package io.github.stefancostin.udemy.algorithms;
 
 import java.util.Arrays;
 
+// Memory Complexity: In-Place Algorithm
+// Time Complexity: O(n^2) Quadratic
 public class SelectionSort {
 
 	public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class SelectionSort {
 			int largest = 0;
 			
 			for (int i = 0; i <= lastUnsortedIndex; i++) {
-				if (intArray[i] >= intArray[largest]) {
+				if (intArray[i] > intArray[largest]) {
 					largest = i;
 				}
 			}

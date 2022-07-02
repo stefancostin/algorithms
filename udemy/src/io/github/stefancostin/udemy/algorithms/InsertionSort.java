@@ -2,6 +2,8 @@ package io.github.stefancostin.udemy.algorithms;
 
 import java.util.Arrays;
 
+//Memory Complexity: In-Place Algorithm
+//Time Complexity: O(n^2) Quadratic
 public class InsertionSort {
 
 	public static void main(String[] args) {
